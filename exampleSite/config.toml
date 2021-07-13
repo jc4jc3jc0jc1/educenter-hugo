@@ -1,58 +1,20 @@
 ######################## default configuration ####################
-baseURL = "http://examplesite.org"
-disableLanguages = ["Fr"]
-title = "Think Tolols For Children"
+baseURL = "https://demo.gethugothemes.com/educenter/"
+title = "Think Tools For Children"
+theme = "educenter-hugo"
 # post pagination
 paginate = "6"
-summaryLength = "5"
-theme = "educenter-hugo"
-[Languages.en]
-contentDir = "content/english"
-copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com)"
-home = "Home"
-languageCode = "en-us"
-languageName = "En"
-weight = 1
-[Languages.fr]
-contentDir = "content/french"
-copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com)"
-home = "Accueil"
-languageCode = "fr-fr"
-languageName = "Fr"
-weight = 2
-[[menu.footer]]
-URL = "teacher"
-name = "teacher"
-[[menu.footer]]
-URL = "event"
-name = "event"
-[[menu.footer]]
-URL = "scholarship"
-name = "scholarship"
-[[menu.footer]]
-URL = "research"
-name = "research"
-[[menu.main]]
-URL = "contact"
-name = "contact"
-weight = 5
-[params]
-address = ""
-author = "Themefisher"
-contact_form_action = "#"
-description = "This is meta description"
-email = "admin@thinktoolsforchildren.org"
-google_analitycs_id = ""
-logo = "images/logo-white.png"
-mobile = ""
-social = []
-top_header = false
-[params.map]
-enable = true
-gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"
-map_latitude = "51.5223477"
-map_longitude = "-0.1622023"
-map_marker = "images/marker.png"
+# post excerpt
+summaryLength = "10"
+# disqus short name
+disqusShortname = "educenter" # get your shortname form here : https://disqus.com
+# disable language
+disableLanguages = ['Fr'] # desable language from here
+
+
+############################# Plugins ##############################
+
+# CSS Plugins
 [[params.plugins.css]]
 link = "plugins/bootstrap/bootstrap.min.css"
 [[params.plugins.css]]
@@ -63,6 +25,8 @@ link = "plugins/animate/animate.css"
 link = "plugins/venobox/venobox.css"
 [[params.plugins.css]]
 link = "plugins/themify-icons/themify-icons.css"
+
+# JS Plugins
 [[params.plugins.js]]
 link = "plugins/jQuery/jquery.min.js"
 [[params.plugins.js]]
@@ -75,6 +39,7 @@ link = "plugins/venobox/venobox.min.js"
 link = "plugins/filterizr/jquery.filterizr.min.js"
 [[params.plugins.js]]
 link = "plugins/google-map/gmap.js"
+
 
 #################### default parameters ################################
 [params]
@@ -96,10 +61,11 @@ top_header = true
 # Preloader
 [params.preloader]
 enable = true
-preloader = "images/preloader.gif"
-[params.subscription]
+preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
 
-enable = false 
+# Subscription
+[params.subscription]
+enable = true
 # mailchimp subsciption
 mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074" # replace this url with yours
 mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074" # replace this code with yours
@@ -321,3 +287,4 @@ url = "scholarship"
 [[Languages.fr.menu.footer]]
 name = "research"
 url = "research"
+{"mode":"full","isActive":false}
