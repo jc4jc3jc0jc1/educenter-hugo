@@ -3,7 +3,7 @@ disableLanguages = ["Fr"]
 disqusShortname = "educenter"
 paginate = "6"
 summaryLength = "10"
-theme = "educenter-hugo"
+theme = "educenter-hugo "
 title = "Think Tools For Children"
 [Languages.en]
 contentDir = "content/english"
