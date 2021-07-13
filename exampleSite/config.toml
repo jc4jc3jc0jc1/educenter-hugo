@@ -1,13 +1,11 @@
 ######################## default configuration ####################
 baseURL = "http://examplesite.org"
 disableLanguages = ["Fr"]
-title = "Educenter | hugo education template"
-theme = "educenter-hugo"
+title = "Think Tolols For Children"
 # post pagination
 paginate = "6"
 summaryLength = "5"
 theme = "educenter-hugo"
-title = "Educenter | hugo education template"
 [Languages.en]
 contentDir = "content/english"
 copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com)"
