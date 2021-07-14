@@ -1,7 +1,7 @@
 ---
 slider:
   enable: true
-  bg_image: ''
+  bg_image: images/background.jpg
   slider_item:
   - title: Bridging the education gap
     content: "\nTechnology literacy programs in impoverished communities.  "
