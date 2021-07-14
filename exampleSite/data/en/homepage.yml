@@ -13,7 +13,7 @@ slider:
       link: contact
 banner_feature:
   enable: true
-  image: images/banner/banner-feature.png
+  image: images/classroom.JPG
   feature_item:
   - name: What We Do
     icon: ti-book
