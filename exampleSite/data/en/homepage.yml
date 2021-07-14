@@ -1,7 +1,7 @@
 ---
 slider:
   enable: true
-  bg_image: ''
+  bg_image: images/background.jpg
   slider_item:
   - title: Bridging the education gap
     content: "\nTechnology literacy programs in impoverished communities.  "
@@ -13,7 +13,7 @@ slider:
       link: contact
 banner_feature:
   enable: true
-  image: images/banner/banner-feature.png
+  image: images/classroom.JPG
   feature_item:
   - name: What We Do
     icon: ti-book
@@ -41,7 +41,7 @@ banner_feature:
 about:
   enable: true
   title: Every child in the world deserves
-  image: images/about/about-us.jpg
+  image: images/about_us.JPG
   content: "a chance to succeed in the modern world. Technology is imperative.\nThe
     opportunity to become a global citizen in a society that is moving away from traditional
     communication and gravitating towards more virtual means.  Being located in a
@@ -66,7 +66,7 @@ cta:
     link: contact
 success_story:
   enable: true
-  bg_image: images/backgrounds/success-story.jpg
+  bg_image: images/teacher-1.jpg
   title: Success Story
   content: Meet Samira, she’s 12 years old and wants to be a videogame designer when
     she grows up.  She studies hard at school and helps her family prepare dinner
