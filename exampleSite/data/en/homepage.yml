@@ -6,7 +6,7 @@ slider:
   - title: Bridging the education gap
     content: "\nTechnology literacy programs in impoverished communities.  "
     animation_in: left
-    animation_out: right
+    animation_out: ''
     button:
       enable: true
       label: Apply now
