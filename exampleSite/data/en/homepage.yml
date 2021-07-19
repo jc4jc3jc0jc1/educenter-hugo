@@ -81,7 +81,7 @@ event:
   enable: false
   title: What we do
 funfacts:
-  enable: true
+  enable: false
   funfact_item:
   - name: TEACHERS
     count: "60"
