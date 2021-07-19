@@ -67,14 +67,15 @@ cta:
 success_story:
   enable: true
   bg_image: images/teacher-1.jpg
-  title: Success Story
-  content: Meet Samira, she’s 12 years old and wants to be a videogame designer when
-    she grows up.  She studies hard at school and helps her family prepare dinner
-    when she doesn’t have too much homework.  However, her school system does not
-    have any technology classes like private schools.  Fortunately, there is a computer
-    lab less than 2km from her school that Think Tools hosts lessons from.  She’s
-    been spending less time playing video games and more time on learning the tools
-    so that one day she can achieve her dream.
+  title: Teacher Spotlight
+  content: Meet Habiba, she’s 23 years old and lives in a bustling area of Bangladesh.  When
+    she first  met us, she told us her goal was to be an engineer.  However, without
+    a grasp of the technology she knew that it would be a difficult career path to
+    follow.  She started off as a volunteer to help the Think Tools team develop our
+    lesson plans as she quickly picked up the skills.  Since then, she now helps the
+    Think Tools team on the local level.  Her goal to be an engineer is still very
+    real, as she is applying to universities today.  Thank you for everything you
+    do Habiba!
   video_link: https://www.youtube.com/watch?v=ResipmZmpDU
 event:
   enable: false
