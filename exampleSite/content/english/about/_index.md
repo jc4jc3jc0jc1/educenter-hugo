@@ -1,6 +1,6 @@
 ---
 title: About Us
-bg_image: "/images/cover-3.jpg"
+bg_image: "/images/about-us.jpg"
 image: "/images/classroom-2.jpg"
 description: 'Our goal is to connect students, teachers, and classrooms.  The grassroots
   approach of each interaction is why our local teachers are teaching our technology
